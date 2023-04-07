@@ -1,0 +1,3 @@
+C:/Users/antoi/Desktop/UTC/GI02/Arq_Sw/894825/MeteoApplication/cmake-build-debug/CMakeFiles/P1.dir
+C:/Users/antoi/Desktop/UTC/GI02/Arq_Sw/894825/MeteoApplication/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/antoi/Desktop/UTC/GI02/Arq_Sw/894825/MeteoApplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
