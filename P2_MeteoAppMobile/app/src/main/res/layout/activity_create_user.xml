@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_meteo">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_user"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+    />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/user_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Surname" />
+
+    <EditText
+        android:id="@+id/user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Age"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_marginTop="50px"
+        android:id="@+id/user_radio_group">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are interested in :"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/user_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature" />
+
+        <RadioButton
+            android:id="@+id/user_wind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wind" />
+
+        <RadioButton
+            android:id="@+id/user_rain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rain" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit_create_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</LinearLayout>

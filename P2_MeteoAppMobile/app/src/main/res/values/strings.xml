@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meteo Application</string>
+    <string name="heading">Main menu</string>
+    <string name="email_hint">Enter your Email ID</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="button_text">Login</string>
+    <string name="create_user">Create user</string>
+</resources>

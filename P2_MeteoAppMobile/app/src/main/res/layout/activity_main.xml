@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+    <!-- binding object of ViewModel to the XML layout -->
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.mvvm.AppViewModel" />
+    </data>
+
+    <!-- Provided Linear layout for the activity components -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:background="@drawable/fond_meteo"
+        android:orientation="vertical">
+
+        <!-- TextView for the heading of the activity -->
+
+        <!-- EditText field for the Email -->
+
+        <!-- EditText field for the password -->
+
+        <!-- Login Button of the activity -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp" />
+
+        <Button
+            android:id="@+id/create_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create user" />
+
+        <Button
+            android:id="@+id/create_meteo_station"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create meteo station" />
+
+        <Button
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Link user to meteo station" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update meteo information" />
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show notifications of user" />
+
+    </LinearLayout>
+</layout>

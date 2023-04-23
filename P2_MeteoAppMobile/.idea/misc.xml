@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jose Merseguer/Nextcloud/1_Docencia/2_Temarios/1_GradoInformatica/3_Tercero/temarioAS/ArquitecturaSoftware/4_Practicas/2_practica2/CodigoAndroid/MVVM-Win/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
